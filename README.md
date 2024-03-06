@@ -1,0 +1,1 @@
+Simple Pokedex app using pokeapi and React Native.
