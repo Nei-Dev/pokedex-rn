@@ -50,7 +50,10 @@ export const PokemonCard = ({ pokemon }: Props) => {
                         // zIndex: 999,
                     }}
                 >
-                    <Text style={styles.pokemonName}>
+                    <Text style={{
+                        ...styles.pokemonName,
+                        color: colors.second
+                    }}>
                         {pokemon.name}
                         {'\n#' + pokemon.id}
                     </Text>

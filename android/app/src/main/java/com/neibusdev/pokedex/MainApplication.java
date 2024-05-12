@@ -1,4 +1,4 @@
-package com.pokedex_project;
+package com.neibusdev.pokedex;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

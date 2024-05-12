@@ -19,7 +19,7 @@ export const SearchScreen = () => {
 
     useEffect(()=>{
         if(!term.length) return setPokemonFiltered(simplePokemonList);
-
+ 
         setPokemonFiltered(
             simplePokemonList.filter(pokemon => {
                 return pokemon.name.toLocaleLowerCase().includes(term.toLocaleLowerCase())
